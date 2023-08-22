@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul class="menu-items">
+        <li class="menu-item"><a href="./index.html">Home</a></li>
+        <li class="menu-item"><a href="./matches.html">Matches</a></li>
+        <li class="menu-item"><a href="./videos.html">Videos</a></li>
+      </ul>
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+      <div class="buttons">
+        <a href="./login.html"
+          ><button class="button btn-login">Login</button></a
+        >
+        <a href="./register.html"
+          ><button class="button btn-reg">Register</button></a
+        >
+      </div>
+    </div>
+
+    <div class="register-container">
+      <h2 class="register-heading">Register</h2>
+      <form>
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <button
+          class="register-button"
+          type="submit"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      &copy; 2023 Your Website. All rights reserved.
+    </footer>
+  </body>
+</html>
